@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng hồ báo thức</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Đồng hồ báo thức</h1>
+        <div class="input-group">
+            <input type="number" id="minutes" placeholder="Phút">
+            <input type="number" id="seconds" placeholder="Giây">
+        </div>
+        <div class="buttons">
+            <button id="startBtn">START</button>
+            <button id="resetBtn">RESET</button>
+        </div>
+        <div id="timer" class="timer">00:00</div>
+        <div id="alert" class="alert"></div>
+    </div>
+    <audio id="alarmSound" src="alarm.mp3.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
